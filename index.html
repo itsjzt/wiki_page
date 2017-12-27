@@ -6,12 +6,13 @@
 	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<p>It works</p>
-
-	<form>
-		<input id="search" class="search" type="text" required>
-		<input id="search-btn", type="submit", value="search">
+	<form class="form" action="">
+		<input id="search" class="search" type="text" placeholder="Search on wikipedia" autocomplete="false" autofocus="true" required>
 	</form>
+
+	<h2 class="heading"> Wikipedia Articles will be shown here </h2>
+	<ul id="wiki" class="show">
+	</ul>
 
 	<script src="index.js"></script>
 
